@@ -1,0 +1,401 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family:arial;
+}
+.container{
+    max-width:800px;
+    margin: 100px auto;
+}
+/*Header start*/
+/*============================================*/
+/*============================================*/
+header{
+    background:black;
+    width:100%;
+    position:fixed;
+}
+.menubar{
+    display:inline;
+    clear:both;
+}
+.menubar ul{
+    list-style-type:none;
+    display:inline;
+}
+.menubar ul li{
+    display:inline;
+}
+.menubar ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:16px;
+    padding:12px 22px;
+    display:inline-block;
+    background:black;
+    margin-right:-4.5px;
+    text-transform:uppercase;
+
+}
+.menubar ul li a:hover{
+    background:#CCCCCC;
+    color:black;
+}
+.dropdown{
+    display:inline;
+    position:absolute;
+}
+.dropdown .dropcontent li a{
+    display:block;
+    width:150px;
+    font-size:13px;
+    position:relative;
+    padding:10px 15px;
+    background:white;
+    color:black;
+    
+    
+}
+.dropcontent{
+    box-shadow:5px 0px 10px black;
+    display:none;
+}
+.dropdown:hover .dropcontent{
+    display:block;
+}
+.dropdown .dropcontent li a:hover{
+    color:#000042;
+}
+.dropdown li a i{
+    position:relative;
+    top:-3px;
+    left:3px;
+}
+.searchbar{
+    display:inline;
+    float:right;
+    clear:both;
+}
+.searchbar i{
+    display:inline-block;
+    padding:13px 20px;
+    font-size:16px;
+    background:black;
+    color:white;
+}
+.searchbar i:hover{
+    background:#F44336;
+}
+/*Header end*/
+/*============================================*/
+/*============================================*/
+
+/*First section start*/
+/*============================================*/
+/*============================================*/
+.firstsection{
+    max-width:100%;
+    background:cover;
+}
+.firstsection img{
+    margin-top:42px;
+    width:100%;
+    max-width:100%;
+    max-height:100%;
+    background-size:cover;
+}
+.chicagotext{
+    text-align:center;
+    margin-top:-110px;
+}
+.chicagotext h2, .chicagotext h4{
+    color:white;
+    font-weight:lighter;
+}
+.chicagotext h4{
+    margin-top:20px;
+}
+/*First section end*/
+/*============================================*/
+/*============================================*/
+
+/*second section start*/
+/*============================================*/
+/*============================================*/
+
+.secondsection .container h1{
+    text-align:center;
+    font-weight:lighter;
+    font-size:30px;
+    margin-bottom:30px;
+}
+
+
+
+.secondsection .container h4{
+    text-align:center;
+    margin-bottom:22px;
+    font-weight:lighter;
+    font-style:italic;
+    color:#6E6E6E;
+}
+
+.secondsection .container p{
+    text-align:justify;
+}
+.threepic{
+    display:flex;
+    margin-top:60px;
+    justify-content: space-around;
+}
+.threepic div h3{
+    text-align:center;
+    font-weight:lighter;
+    font-size:15px;
+    margin-bottom:18px;
+}
+.threepic div img{
+    width:150px;
+    border-radius:5px;
+
+}
+
+/*second section end*/
+/*============================================*/
+/*============================================*/
+
+/*third section start*/
+/*============================================*/
+/*============================================*/
+.thirdsection{
+    background:black;
+    padding-bottom:15px;
+}
+.thirdsection .container{
+    background:black;
+}
+.thirdsection .container h1{
+    text-transform:uppercase;
+    font-weight:lighter;
+    font-size:30px;
+    color:white;
+    padding-top:80px;
+    text-align:center;
+    padding-bottom:20px;
+    
+}
+.thirdsection .container h5{
+    font-size:16px;
+   font-weight:lighter;
+   font-style:italic;
+   color:#6E6E6E;
+   padding-bottom:35px;
+   text-align:center;
+
+}
+.smallbox{
+    background:white;
+    margin-left:10px;
+    margin-right:15px;
+    margin-bottom:20px;
+}
+.smallbox p{
+    display:inline-block;
+    padding:10px 15px;
+    color:#6E6E6E;
+}
+.smallbox .sold{
+    background:red;
+    padding:3px;
+    color:white;
+}
+.smallbox span{
+    float:right;
+    padding:4px 8px;
+    background:black;
+    color:white;
+    border-radius:50%;
+    margin-right:30px;
+}
+.threecard{
+     display:flex;
+     justify-content:space-between;
+     margin-left:13px;
+     margin-right:14px;
+
+}
+.card{
+    max-width:240px;
+    background:white;
+    margin-top:15px;
+    overflow:hidden;
+}
+.card:nth-child(2){
+ margin-left:20px;
+ margin-right:20px;
+}
+.card img{
+   
+    max-width:100%;
+    overflow:hidden;
+    transition:0.5s;
+
+}
+.card h3, span, p{
+    padding:15px;
+    max-width:100%;
+}
+.card  h3{
+    font-size:17px;
+}
+.card span{
+    font-weight:lighter;
+}
+.card span{
+    color:#6e6e6e;
+    font-size:15px;
+}
+.card button{
+    padding:10px 15px;;
+    text-decoration:none;
+    background:black;
+    color:white;
+    font-weight:200;
+    border:none;
+    font-size:15px;
+    margin-bottom:15px;
+    margin-left:15px;
+    
+}
+.card button:hover{
+    background:#CCCCCC;
+    color:black;
+}
+.card img:hover{
+transform:scale(1.2)
+}
+
+/*third section end*/
+/*============================================*/
+/*============================================*/
+
+/*fourth section start*/
+/*============================================*/
+/*============================================*/
+
+.fourthsection .container h1{
+    text-transform:uppercase;
+    font-weight:lighter;
+    font-size:30px;
+    text-align:center;
+    margin-bottom:25px;
+
+}
+.fourthsection .container h5{
+    text-align:center;
+    font-size:15px;
+    font-weight:lighter;
+    font-style:italic;
+    color:#6e6e6e;
+}
+.leftright{
+    display:flex;
+    margin-top:50px;
+}
+.conleft{
+    width:50%;
+}
+.conleft ul li {
+    font-size:18px;
+    padding:5px;
+    list-style-type:none;
+
+}
+.conleft ul li i{
+    font-size:15px;
+    padding:0px 10px;
+}
+.conright{
+  width:50%;
+  float:right;
+
+}
+.inputone,.inputtwo{
+    width:46%;
+    margin-right:10px;
+    padding:10px;
+    margin-bottom:10px;
+    border:0.2px solid #6E6E6E;
+    font-size:15px;
+
+}
+.biginput{
+    width:96%;
+    margin-right:10px;
+    padding:10px;
+    border:0.2px solid #6E6E6E;
+    font-size:15px;
+
+}
+.conright button{
+    margin:15px;
+    float:right;
+    padding:10px 15px;
+    font-size:15px;
+    border:none;
+    background:black;
+    color:white;
+}
+.conright button:hover{
+    background:#CCCCCC;
+    color:black;
+}
+
+/*fourth section end*/
+/*============================================*/
+/*============================================*/
+/*pic section start*/
+/*============================================*/
+/*============================================*/
+.picpic img{
+    max-width:100%;
+   max-height:100%;
+ }
+
+/*pic section end*/
+/*============================================*/
+/*============================================*/
+
+/*footer section start*/
+/*============================================*/
+/*============================================*/
+footer{
+    margin-top:70px;
+    margin-bottom:70px;
+    text-align:center;
+}
+footer a{
+    font-size:23px;
+    color:#6e6e6e;
+
+}
+footer a:hover{
+    color:#CCCCCC;
+}
+footer span{
+    display:block;
+    font-size:15px;
+    color:#6e6e6e;
+}
+footer span a{
+    font-size:15px;
+}
+footer span a:hover{
+    color:#6E6E6E;
+}
+/*footer section end*/
+/*============================================*/
+/*============================================*/
+
+
